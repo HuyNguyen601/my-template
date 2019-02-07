@@ -17,39 +17,15 @@ export const mainListItems = (<div>
       <ListItemIcon>
         <DashboardIcon/>
       </ListItemIcon>
-      <ListItemText primary="Dashboard"/>
+      <ListItemText primary="New Receiving"/>
     </ListItem>
   </Link>
-  <Link to='/orderList' style={{textDecoration: 'none'}}>
+  <Link to='/history' style={{textDecoration: 'none'}}>
     <ListItem button>
       <ListItemIcon>
         <ShoppingCartIcon/>
       </ListItemIcon>
-      <ListItemText primary="Order List"/>
-    </ListItem>
-  </Link>
-  <Link to='/orderDetail' style={{textDecoration: 'none'}}>
-    <ListItem button>
-      <ListItemIcon>
-        <AssignmentIcon/>
-      </ListItemIcon>
-      <ListItemText primary="Order Detail"/>
-    </ListItem>
-  </Link>
-  <Link to='/unit' style={{textDecoration: 'none'}}>
-    <ListItem button>
-      <ListItemIcon>
-        <Layers/>
-      </ListItemIcon>
-      <ListItemText primary="Unit History"/>
-    </ListItem>
-  </Link>
-  <Link to='/report' style={{textDecoration: 'none'}}>
-    <ListItem button>
-      <ListItemIcon>
-        <BarChartIcon/>
-      </ListItemIcon>
-      <ListItemText primary="Reports"/>
+      <ListItemText primary="Receiving History"/>
     </ListItem>
   </Link>
 </div>);

@@ -69,7 +69,7 @@ class Layout extends React.Component {
 
             </Typography>
             {getUser().name}
-            <IconButton color="inherit" onClick={e=>logout(()=>navigate(`/login`))}>
+            <IconButton color="inherit" onClick={e=>logout(()=>navigate(`/`))}>
               <Person/>
             </IconButton>
           </Toolbar>
@@ -88,8 +88,6 @@ class Layout extends React.Component {
           </div>
           <Divider />
           <List>{mainListItems}</List>
-          <Divider />
-          <List>{secondaryListItems}</List>
         </Drawer>
         {this.props.children}
 
